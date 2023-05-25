@@ -5,7 +5,7 @@ if ! [ -x "$(command -v docker-compose)" ]; then
   exit 1
 fi
 
-domains=(difast.com.br www.difast.com.br)
+domains=(app.difast.com.br www.app.difast.com.br)
 rsa_key_size=4096
 data_path="./data/certbot"
 email="contato@difast.com.br" # Adding a valid address is strongly recommended
