@@ -5,10 +5,10 @@ if ! [ -x "$(command -v docker-compose)" ]; then
   exit 1
 fi
 
-domains=(app.difast.com.br www.app.difast.com.br)
+domains=(app.sistemareborn.com.br www.app.sistemareborn.com.br)
 rsa_key_size=4096
 data_path="./data/certbot"
-email="contato@difast.com.br" # Adding a valid address is strongly recommended
+email="robertoalvespereira18@gmail.com" # Adding a valid address is strongly recommended
 staging=0 # Set to 1 if you're testing your setup to avoid hitting request limits
 
 if [ -d "$data_path" ]; then
